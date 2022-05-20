@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(47, 135, 194);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.calculadora {
+    width: 620px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+}
+
+.display {
+    width: 620px;
+    font-size: 2em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.btn, .btn-delete, .btn-equal {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: rgb(121, 121, 121);
+}
